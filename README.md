@@ -1,9 +1,9 @@
-<h1 align="center">✨ Full-Stack Interview Platform ✨</h1>
+# 🚀 TalentHunt – DSA & Mock Interview Platform
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+TalentHunt is a **full-stack MERN platform** designed to help developers sharpen their **DSA skills** and experience **real-time mock interviews** with **video calling, screen sharing, and live coding**.
 
-✨ Highlights:
-
+---
+## ✨ Highlights
 - 🧑‍💻 VSCode-Powered Code Editor
 - 🔐 Authentication via Clerk
 - 🎥 1-on-1 Video Interview Rooms
