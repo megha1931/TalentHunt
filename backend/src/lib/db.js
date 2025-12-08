@@ -3,11 +3,6 @@ import mongoose from "mongoose";
 import {ENV} from "./env.js"
 export const connectDB = async()=>{
     try{
-        //in case you dont have a db url defined
-        if(!ENV_DB_URL){
-            throw new Error("DB_URL is not defined ")
-        }
-
         const conn = await mongoose.connect(ENV.DB_URL)
          console.log("connected to db",conn.connection.host);
          
